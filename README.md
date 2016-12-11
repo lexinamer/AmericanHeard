@@ -11,7 +11,12 @@ $ npm install -g firebase-tools
 
 This installs the globally available firebase command. To update to the latest version, simply re-run the same command.
 
+# When ready to deploy:
 
-INSTRUCTIONS FOR DEPLOYING LOCALLY COMING SOON.
+Run $ firebase deploy
 
-Instructions for full deployment when the time comes: https://firebase.google.com/docs/hosting/quickstart
+You may get an error and need to run
+$ firebase use -add
+When prompted, pick the "american-heard" project. If you don't see it then make sure you are logged in to Firebase.
+
+Staging site is found at https://american-heard.firebaseapp.com/ until ready to deploy to custom domain.
