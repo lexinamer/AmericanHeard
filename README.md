@@ -17,6 +17,7 @@ Run $ firebase deploy
 
 You may get an error and need to run
 $ firebase use -add
+
 When prompted, pick the "american-heard" project. If you don't see it then make sure you are logged in to Firebase.
 
 Staging site is found at https://american-heard.firebaseapp.com/ until ready to deploy to custom domain.
