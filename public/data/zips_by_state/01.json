@@ -1,0 +1,3937 @@
+[
+ {
+   "State": 1,
+   "ZCTA": 30165,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 31905,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35004,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35005,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35005,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35006,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35006,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35006,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35007,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35010,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 35010,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35010,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35013,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35014,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35016,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35019,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35019,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35020,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35020,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35022,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35022,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35023,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35023,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35031,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35031,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35032,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35033,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35034,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35034,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35035,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35036,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35040,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35042,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35043,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35044,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35045,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35046,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35049,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35051,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35052,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35053,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35054,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35055,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35057,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35058,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35060,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35061,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35061,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35062,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35062,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35063,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35063,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35064,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35068,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35068,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35070,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35071,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35072,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35072,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35073,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35074,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35077,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35078,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35079,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35080,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35082,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35083,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35085,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35087,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35087,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35089,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35089,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35091,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35094,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35094,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35096,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35097,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35098,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35111,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35111,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35112,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35114,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35115,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35116,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35117,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35117,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35118,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35118,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35119,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35120,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35121,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35121,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35121,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35124,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35125,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35126,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35127,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35127,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35128,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35130,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35130,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35131,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35133,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35133,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35135,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35136,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35139,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35143,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35146,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35146,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35147,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35148,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35148,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35149,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35150,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35150,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35151,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35151,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35160,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35171,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35172,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35173,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35173,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35175,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35175,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35176,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35178,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35178,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35179,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35179,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35180,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35183,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35184,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35186,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35187,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35188,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35188,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35203,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35204,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35205,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35205,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35206,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35206,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35207,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35207,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35208,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35209,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35209,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35210,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35210,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35211,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35211,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35212,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35212,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35213,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35213,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35214,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35214,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35215,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35215,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35216,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35217,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35217,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35218,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35221,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35222,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35222,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35223,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35223,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35224,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35224,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35226,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35226,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35228,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35229,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35233,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35234,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35235,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35235,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35242,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35243,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35244,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35244,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35254,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35401,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35401,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35404,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35404,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35405,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35406,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35406,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35441,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35442,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35443,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35444,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35444,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35444,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35446,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35446,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35447,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35452,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35452,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35453,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35453,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35456,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35456,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35457,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35458,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35459,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35460,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35461,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35462,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35463,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35464,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35466,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35466,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35469,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35470,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35473,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35473,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35474,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35475,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35476,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35476,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35477,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35480,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35480,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35481,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35490,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35490,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35501,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35503,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35504,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35540,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35541,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35542,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35543,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35544,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35545,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35546,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35548,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35549,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35550,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35552,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35553,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35554,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35555,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35555,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35559,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35563,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35564,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35565,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35570,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35571,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35572,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35574,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35574,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35575,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35576,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35576,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 35577,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35578,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35579,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35580,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35581,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35582,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35584,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35585,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35586,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35587,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35592,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35593,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35594,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35601,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35603,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35603,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35610,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35611,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35613,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35614,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35615,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35616,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35618,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35619,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35619,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35620,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35621,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35621,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35622,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35622,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35630,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35633,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35634,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35640,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35643,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35645,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35646,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35647,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35648,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35649,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35650,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35651,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35652,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35653,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35654,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35660,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35661,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35670,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35671,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35672,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35673,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35673,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35674,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35677,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35739,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35740,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35741,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35744,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35745,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35746,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35747,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35748,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35749,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35750,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35751,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35752,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35754,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35754,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35755,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35755,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35756,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35757,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35758,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35759,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35760,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35760,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35761,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35763,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35764,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35765,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35765,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35766,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35768,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35769,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35769,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35771,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35771,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35772,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35773,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35774,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35775,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35776,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35776,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35801,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35802,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35803,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35805,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35806,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35808,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35810,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35811,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35816,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35824,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35896,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35901,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35901,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35903,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35903,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35904,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35905,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35905,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35906,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35907,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35950,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35951,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35952,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35952,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35953,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35954,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35956,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35957,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35958,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35959,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35960,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35961,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35961,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35962,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35963,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35966,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35966,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35967,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35967,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35968,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35971,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35972,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35972,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35973,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35973,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35974,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35975,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35976,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35978,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35978,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35979,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35979,
+   "CongressionalDistrict": 5
+ },
+ {
+   "State": 1,
+   "ZCTA": 35980,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35980,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 35981,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35983,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35984,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35986,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35987,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 35988,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35989,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 35990,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 36003,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36005,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36006,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36006,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 36009,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36010,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36013,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36016,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36017,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36020,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36022,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36024,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36025,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36026,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36026,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 36027,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36027,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36028,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36029,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36029,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36030,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36031,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36032,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36032,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36033,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36033,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36034,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36035,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36036,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36037,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36038,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36039,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36040,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36041,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36042,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36043,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36043,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36046,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36047,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36047,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36048,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36049,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36051,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36051,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 36052,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36052,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36053,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36054,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36064,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36064,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36066,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36067,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36069,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36071,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36075,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36078,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36078,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36079,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36080,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36080,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 36081,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36082,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36083,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36088,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36089,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36089,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36091,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36091,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 36092,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36093,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36104,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36104,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36105,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36105,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36106,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36106,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36107,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36108,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36108,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36109,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36110,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36111,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36112,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36113,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36113,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36115,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36116,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36116,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36116,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36117,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36117,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36201,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36203,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36205,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36206,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36207,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36250,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36251,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36255,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36256,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36258,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36260,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36262,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36263,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36264,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36265,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36266,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36267,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36268,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36269,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36271,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36272,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36272,
+   "CongressionalDistrict": 4
+ },
+ {
+   "State": 1,
+   "ZCTA": 36273,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36274,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36276,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36277,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36278,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36279,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36280,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36301,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36303,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36305,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36310,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36311,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36312,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36313,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36314,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36316,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36317,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36318,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36319,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36320,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36321,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36322,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36323,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36330,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36340,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36343,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36344,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36345,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36346,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36350,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36351,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36352,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36353,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36360,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36362,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36370,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36371,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36373,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36374,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36375,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36376,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36401,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36401,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36420,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36420,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36421,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36425,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36426,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36426,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36432,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36432,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36435,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36436,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36439,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36441,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36442,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36444,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36445,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36446,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36451,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36451,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36453,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36454,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36455,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36456,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36460,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36460,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36467,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36470,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36471,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36471,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36473,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36474,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36475,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36475,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36476,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36477,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36480,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36481,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36481,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36482,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36482,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36483,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36483,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36502,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36502,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36505,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36507,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36509,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36511,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36512,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36513,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36518,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36521,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36522,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36523,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36524,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36525,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36526,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36527,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36528,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36529,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36530,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36532,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36535,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36538,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36539,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36540,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36541,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36542,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36543,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36544,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36545,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36545,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36548,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36549,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36550,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36551,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36553,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36555,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36556,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36558,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36558,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36559,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36560,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36561,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36562,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36564,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36567,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36568,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36569,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36571,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36572,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36574,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36575,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36576,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36578,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36579,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36580,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36581,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36582,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36583,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36584,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36585,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36587,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36590,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36602,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36603,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36604,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36605,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36606,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36607,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36608,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36609,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36610,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36611,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36612,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36613,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36615,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36616,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36617,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36618,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36619,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36688,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36693,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36695,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36701,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36703,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36703,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36720,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36722,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36723,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36726,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36727,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36728,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36732,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36736,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36738,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36740,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36742,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36744,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36748,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36749,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36749,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36750,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 36751,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36751,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36752,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36753,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36753,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36754,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36756,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36758,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36758,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 36758,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36759,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36761,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36763,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36765,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36766,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36767,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36768,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36768,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36769,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36773,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36775,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36776,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36782,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36783,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36784,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36785,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36786,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36790,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 36792,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 36793,
+   "CongressionalDistrict": 6
+ },
+ {
+   "State": 1,
+   "ZCTA": 36793,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36801,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36804,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36830,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36832,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36849,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36850,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36852,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36853,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36854,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36855,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36856,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36858,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36859,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36860,
+   "CongressionalDistrict": 2
+ },
+ {
+   "State": 1,
+   "ZCTA": 36860,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36861,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36862,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36863,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36865,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36866,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36867,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36869,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36870,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36871,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36874,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36875,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36877,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36879,
+   "CongressionalDistrict": 3
+ },
+ {
+   "State": 1,
+   "ZCTA": 36901,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36904,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36907,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36908,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36910,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36912,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36913,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36915,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36916,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36919,
+   "CongressionalDistrict": 1
+ },
+ {
+   "State": 1,
+   "ZCTA": 36919,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36921,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36922,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 36925,
+   "CongressionalDistrict": 7
+ },
+ {
+   "State": 1,
+   "ZCTA": 38852,
+   "CongressionalDistrict": 4
+ }
+]

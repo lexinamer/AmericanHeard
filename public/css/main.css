@@ -1,7 +1,5 @@
 html, body {
-  height: 100%;
   width: 100%;
-  overflow: hidden;
 	margin: 0;
 }
 
@@ -17,5 +15,5 @@ p {
 
 .temp-wrapper {
   width: 40%;
-  margin: 200px 30%;
+  margin: 100px 30%;
 }
