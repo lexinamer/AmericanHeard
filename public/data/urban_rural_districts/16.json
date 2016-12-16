@@ -1,0 +1,30 @@
+[
+ {
+   "State": 16,
+   "CongressionalDistrict": 1,
+   "TotalPop": 784132,
+   "UrbanPop": 547542,
+   "RuralPop": 236590,
+   "UrbanPopPCT": "69.83%",
+   "RuralPopPCT": "30.17%",
+   "Arealand": 39418.02,
+   "UrbanLand": 254.43,
+   "RuralLand": 39163.59,
+   "UrbanLandPCT": "0.65%",
+   "RuralLandPCT": "99.35%"
+ },
+ {
+   "State": 16,
+   "CongressionalDistrict": 2,
+   "TotalPop": 783450,
+   "UrbanPop": 558828,
+   "RuralPop": 224622,
+   "UrbanPopPCT": "71.33%",
+   "RuralPopPCT": "28.67%",
+   "Arealand": 43225.09,
+   "UrbanLand": 244.65,
+   "RuralLand": 42980.45,
+   "UrbanLandPCT": "0.57%",
+   "RuralLandPCT": "99.43%"
+ }
+]

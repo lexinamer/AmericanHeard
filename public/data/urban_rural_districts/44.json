@@ -1,0 +1,30 @@
+[
+ {
+   "State": 44,
+   "CongressionalDistrict": 1,
+   "TotalPop": 526283,
+   "UrbanPop": 510351,
+   "RuralPop": 15932,
+   "UrbanPopPCT": "96.97%",
+   "RuralPopPCT": "3.03%",
+   "Arealand": 268.49,
+   "UrbanLand": 178.69,
+   "RuralLand": 89.81,
+   "UrbanLandPCT": "66.55%",
+   "RuralLandPCT": "33.45%"
+ },
+ {
+   "State": 44,
+   "CongressionalDistrict": 2,
+   "TotalPop": 526284,
+   "UrbanPop": 444692,
+   "RuralPop": 81592,
+   "UrbanPopPCT": "84.50%",
+   "RuralPopPCT": "15.50%",
+   "Arealand": 765.32,
+   "UrbanLand": 221.95,
+   "RuralLand": 543.37,
+   "UrbanLandPCT": "29.00%",
+   "RuralLandPCT": "71.00%"
+ }
+]

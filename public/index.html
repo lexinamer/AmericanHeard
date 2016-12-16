@@ -23,8 +23,12 @@
         car seemed to float in the middle of an immense dark sphere, whose upper
         half was strewn with silver. Looking down into the dark gulf below, I
         could see a ruddy light streaming through a rift in the clouds.</p>
+
         <p>Enter your zip code: <input id="zip-code-input" type="text">
           <button type="button" onclick="getDistrictsFromZip()">Show Districts</button>
+        </p>
+        <p>
+          <button type="button" onclick="showUrbanRural()">View Urban/Rural overlay</button>
         </p>
     </div>
 
@@ -32,7 +36,9 @@
     <script src="https://d3js.org/queue.v1.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
     <script src="./javascript/state_numbers.js"></script>
+    <script src="./javascript/district_list.js"></script>
     <script src="./javascript/zip_district_dict.js"></script>
+    <script src="./javascript/urban_rural_dict.js"></script>
     <script src="./javascript/map.js"></script>
     <script src="./javascript/main.js"></script>
 

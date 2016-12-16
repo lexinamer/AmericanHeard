@@ -9,27 +9,55 @@ path {
 }
 
 .districts {
-  fill: #bbb;
+  fill: #CCC;
 }
 
 .districts :hover {
-  fill: orange;
+  fill: #45BB67;
 }
 
 .district-boundaries {
   pointer-events: none;
   fill: none;
-  stroke: #fff;
+  stroke: #FFF;
   stroke-width: .5px;
 }
 
 .state-boundaries {
   pointer-events: none;
   fill: none;
-  stroke: #fff;
+  stroke: #FFF;
   stroke-width: 1.5px;
 }
 
+.less-than-40 {
+  fill: rgba(0, 140, 255, .12);
+}
+
+.less-than-50 {
+  fill: rgba(0, 140, 255, .26);
+}
+
+.less-than-60 {
+  fill: rgba(0, 140, 255, .4);
+}
+
+.less-than-70 {
+  fill: rgba(0, 140, 255, .54);
+}
+
+.less-than-80 {
+  fill: rgba(0, 140, 255, .68);
+}
+
+.less-than-90 {
+  fill: rgba(0, 140, 255, .82);
+}
+
+.less-than-100 {
+  fill: rgba(0, 140, 255, 1);
+}
+
 .current-districts {
-  fill: #33CCCC;
+  fill: #CC333C;
 }

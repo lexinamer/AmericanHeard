@@ -1,0 +1,58 @@
+[
+ {
+   "State": 19,
+   "CongressionalDistrict": 1,
+   "TotalPop": 761548,
+   "UrbanPop": 479306,
+   "RuralPop": 282242,
+   "UrbanPopPCT": "62.94%",
+   "RuralPopPCT": "37.06%",
+   "Arealand": 12048.84,
+   "UrbanLand": 239.38,
+   "RuralLand": 11809.45,
+   "UrbanLandPCT": "1.99%",
+   "RuralLandPCT": "98.01%"
+ },
+ {
+   "State": 19,
+   "CongressionalDistrict": 2,
+   "TotalPop": 761624,
+   "UrbanPop": 481847,
+   "RuralPop": 279777,
+   "UrbanPopPCT": "63.27%",
+   "RuralPopPCT": "36.73%",
+   "Arealand": 12261.92,
+   "UrbanLand": 238.25,
+   "RuralLand": 12023.67,
+   "UrbanLandPCT": "1.94%",
+   "RuralLandPCT": "98.06%"
+ },
+ {
+   "State": 19,
+   "CongressionalDistrict": 3,
+   "TotalPop": 761612,
+   "UrbanPop": 592219,
+   "RuralPop": 169393,
+   "UrbanPopPCT": "77.76%",
+   "RuralPopPCT": "22.24%",
+   "Arealand": 8789.62,
+   "UrbanLand": 274.24,
+   "RuralLand": 8515.38,
+   "UrbanLandPCT": "3.12%",
+   "RuralLandPCT": "96.88%"
+ },
+ {
+   "State": 19,
+   "CongressionalDistrict": 4,
+   "TotalPop": 761571,
+   "UrbanPop": 396884,
+   "RuralPop": 364687,
+   "UrbanPopPCT": "52.11%",
+   "RuralPopPCT": "47.89%",
+   "Arealand": 22756.75,
+   "UrbanLand": 201.41,
+   "RuralLand": 22555.34,
+   "UrbanLandPCT": "0.89%",
+   "RuralLandPCT": "99.11%"
+ }
+]

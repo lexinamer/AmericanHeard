@@ -1,0 +1,30 @@
+[
+ {
+   "State": 33,
+   "CongressionalDistrict": 1,
+   "TotalPop": 658233,
+   "UrbanPop": 457815,
+   "RuralPop": 200418,
+   "UrbanPopPCT": "69.55%",
+   "RuralPopPCT": "30.45%",
+   "Arealand": 2463.65,
+   "UrbanLand": 393.65,
+   "RuralLand": 2070,
+   "UrbanLandPCT": "15.98%",
+   "RuralLandPCT": "84.02%"
+ },
+ {
+   "State": 33,
+   "CongressionalDistrict": 2,
+   "TotalPop": 658237,
+   "UrbanPop": 336057,
+   "RuralPop": 322180,
+   "UrbanPopPCT": "51.05%",
+   "RuralPopPCT": "48.95%",
+   "Arealand": 6489,
+   "UrbanLand": 250.39,
+   "RuralLand": 6238.61,
+   "UrbanLandPCT": "3.86%",
+   "RuralLandPCT": "96.14%"
+ }
+]

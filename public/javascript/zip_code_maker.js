@@ -50,14 +50,13 @@ function ready(error, s01, s04, s05, s06, s08, s09, s12, s13, s15, s16, s17,
   s54, s55) {
   if (error) throw error;
   var zipCodeDistrictDict = {};
-  var district, zipCode;
+  var district, stateNum, zipCode;
   // repeat for every state.
-  console.log(arguments);
   for (var arg = 1; arg < arguments.length; arg++) {
     for (var i = 0; i < arguments[arg].length; i++) {
+      stateNum = arguments[arg][i].State;
       district = arguments[arg][i].CongressionalDistrict;
       zipCode = arguments[arg][i].ZCTA;
-      stateNum = arguments[arg][i].State;
       if (district < 10) {
         district = '0' + district;
       } else {
@@ -70,6 +69,5 @@ function ready(error, s01, s04, s05, s06, s08, s09, s12, s13, s15, s16, s17,
       }
     }
   }
-  console.log(zipCodeDistrictDict);
   document.body.innerHTML = JSON.stringify(zipCodeDistrictDict);
 }
