@@ -2,19 +2,22 @@
 html, body {
   width: 100%;
 	margin: 0;
+  color: #4b4b4b;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
   text-transform: uppercase;
-  color: #4b4b4b;
+}
+
+h1 {
+color: #f8bc16;
 }
 
 p, a {
   font-family: 'Raleway', sans-serif;
 	font-weight: 400;
-  color: #4b4b4b;
 }
 
 .btn-primary {
@@ -80,6 +83,11 @@ nav a {
   margin-left: 15px;
 }
 
+nav a:hover {
+  color: #f8bc16;
+  border-color: #f8bc16;
+}
+
 nav .rightnav {
   float: right;
   margin-right: 20px;
@@ -89,7 +97,7 @@ nav .rightnav {
 nav .rightnav:hover {
   float: right;
   margin-right: 20px;
-  background: #d13f27;
+  background: #f8bc16;
   border: none;
   color: white;
 }
@@ -116,7 +124,6 @@ nav .rightnav:hover {
 }
 
 .landing-wrapper *{
-  color: #4b4b4b;
 }
 
 .landing-wrapper p{
@@ -124,7 +131,7 @@ nav .rightnav:hover {
 }
 
 .arrow {
-  color: white;
+  color: #f8bc16;
   text-decoration: none;
   font-size: 60px;
   font-weight: 900;
@@ -220,7 +227,7 @@ nav .rightnav:hover {
 .videos {
   float: left;
   width: 46%;
-  margin: 100px 2%;
+  margin: 50px 2%;
 }
 
 iframe {
