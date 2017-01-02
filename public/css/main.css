@@ -8,13 +8,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
   text-transform: uppercase;
-  color: white;
+  color: #4b4b4b;
 }
 
 p, a {
   font-family: 'Raleway', sans-serif;
 	font-weight: 400;
-  color: white;
+  color: #4b4b4b;
 }
 
 .btn-primary {
@@ -22,11 +22,12 @@ p, a {
   border: none;
   color: white;
   padding: 10px;
+  /*border: 1px solid #36bba1;*/
 }
 
 .btn-primary:hover {
-  background: white;
-  color: #36bba1;
+  background: #4b4b4b;
+  /*color: #36bba1;*/
 }
 
 .btn-secondary {
@@ -37,8 +38,8 @@ p, a {
 }
 
 .btn-secondary:hover {
-  background: white;
-  color: #d13f27;
+  background: #4b4b4b;
+  /*color: #d13f27;*/
 }
 
 
@@ -49,7 +50,7 @@ p, a {
 }
 
 .nav-wrapper nav {
-  background: white;
+  background: #4b4b4b;
   overflow: hidden;
   height: 104px;
 }
@@ -70,24 +71,26 @@ nav img {
 nav a {
   float: left;
   margin-top: 38px;
-  color: #4b4b4b;
+  color: white;
   text-decoration: none;
   padding: 10px;
   border-width: 0 1px 1px 0;
   border-style: solid;
-  border-color: #4b4b4b;
+  border-color: white;
   margin-left: 15px;
 }
 
 nav .rightnav {
   float: right;
   margin-right: 20px;
+  border: none;
 }
 
 nav .rightnav:hover {
   float: right;
   margin-right: 20px;
   background: #d13f27;
+  border: none;
   color: white;
 }
 
@@ -132,7 +135,6 @@ nav .rightnav:hover {
 
 /* MAINBODY STYLING*/
 #mainbody {
-  background: #4b4b4b;
   overflow: hidden;
 }
 
@@ -172,13 +174,11 @@ nav .rightnav:hover {
 }
 
 .select-styled:hover {
-  background-color: white;
-  color: #36bba1;
+  background-color: #4b4b4b;
 }
 
 .select-styled:active, .select-styled.active {
-  background-color: white;
-  color: #36bba1;
+  background-color: #4b4b4b;
 }
 
 .select-options {
@@ -196,14 +196,14 @@ nav .rightnav:hover {
 .select-options li {
   margin: 0;
   padding: 12px 0;
-  border-top: 1px solid #227263;
+  border-top: 1px solid #4b4b4b;
   color: #36bba1;
   background: white;
 }
 
 .select-options li:hover {
   color: white;
-  background: #36bba1;
+  background: #4b4b4b;
 }
 
 .filter-bar button {
@@ -211,8 +211,8 @@ nav .rightnav:hover {
   width: 890px;
   height: 50px;
   margin: 0 auto;
-  border: none;
   margin-top: 10px;
+  font-size: 16px;
 }
 
 
