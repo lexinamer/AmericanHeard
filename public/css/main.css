@@ -1,3 +1,4 @@
+/* GLOBAL PAGE STYLING*/
 html, body {
   width: 100%;
 	margin: 0;
@@ -5,15 +6,90 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+	font-weight: 500;
+  text-transform: uppercase;
+  color: #4b4b4b;
 }
 
-p {
-  font-family: 'Playfair Display', serif;
+p, a {
+  font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 }
 
+
+/* LANDING SCREEN STYLING*/
+#landing {
+  height: 100vh;
+  background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+  text-align: center;
+}
+
+#landing img {
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.landing-wrapper {
+  margin: 0 20%;
+}
+
+.landing-wrapper *{
+  color: #4b4b4b;
+}
+
+.landing-wrapper p{
+  font-size: 18px;
+}
+
+.arrow {
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+
+/* MAIN PAGE STYLING*/
 .temp-wrapper {
   width: 40%;
-  margin: 100px 30%;
+  margin: 0px 30%;
+}
+
+/*NAV STYLING*/
+nav img {
+  height: 100px;
+}
+
+nav {
+  background: #4b4b4b;
+}
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  background: teal;
+  padding: 10px 20px;
+  color: white;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+nav a:hover {
+  background: #f8bc16;
 }

@@ -8,28 +8,47 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/map.css" />
 
-    <!-- Check out https://fonts.google.com/specimen/Raleway
-    and https://fonts.google.com/specimen/Playfair+Display -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
 
   </head>
   <body>
-    <div class="temp-wrapper">
-      <h1>American Heard</h1>
-      <p>Lorem Ipsum - Apparently we had reached a great height in the atmosphere,
-        for the sky was a dead black, and the stars had ceased to twinkle. By the
-        same illusion which lifts the horizon of the sea to the level of the
-        spectator on a hillside, the sable cloud beneath was dished out, and the
-        car seemed to float in the middle of an immense dark sphere, whose upper
-        half was strewn with silver. Looking down into the dark gulf below, I
-        could see a ruddy light streaming through a rift in the clouds.</p>
 
-        <p>Enter your zip code: <input id="zip-code-input" type="text">
-          <button type="button" onclick="getDistrictsFromZip()">Show Districts</button>
+    <div id="landing">
+      <div class="landing-wrapper">
+        <img src="images/americaheardlogo-square.png" alt="America Heard logo">
+        <!-- <img src="images/americaheardlogo.png" alt="America Heard logo"> -->
+
+        <h1>435 Voices, 1 America Heard</h1>
+
+        <p>Curabitur mattis lacus vel augue lobortis cursus. Sed gravida vulputate ipsum vel accumsan. Proin tempus purus eget neque efficitur, at egestas ipsum vehicula.</p>
+        <p>Curabitur vulputate, arcu ultrices varius tristique, elit lorem sollicitudin dui, at viverra ante magna in risus. Vestibulum rutrum at urna lacinia imperdiet. Aliquam sodales fringilla nisi sed semper. Cras consectetur, odio nec pharetra dignissim, ligula sem ultrices arcu, eu ultrices ex nisl a dui.
         </p>
-        <p>
-          <button type="button" onclick="showUrbanRural()">View Urban/Rural overlay</button>
-        </p>
+
+        <a href="#mainbody" class="arrow"><span>&#10597;</span></a>
+        <!-- <a href="#" class="arrow">&#10597;</a> -->
+      </div>
+    </div>
+
+    <div id="mainbody">
+      <nav>
+        <img src="images/americaheardlogo.png" alt="America Heard logo">
+        <ul>
+          <li><a href="#">videos</a></li>
+          <li><a href="#">about</a></li>
+        </ul>
+      </nav>
+
+      <div class="temp-wrapper">
+        <p>Lorem Ipsum - Apparently we had reached a great height in the atmosphere,
+          for the sky was a dead black, and the stars had ceased to twinkle.</p>
+
+          <p>Enter your zip code: <input id="zip-code-input" type="text">
+            <button type="button" onclick="getDistrictsFromZip()">Show Districts</button>
+          </p>
+          <p>
+            <button type="button" onclick="showUrbanRural()">View Urban/Rural overlay</button>
+          </p>
+      </div>
     </div>
 
     <script src="https://d3js.org/d3.v3.min.js"></script>
@@ -41,6 +60,26 @@
     <script src="./javascript/urban_rural_dict.js"></script>
     <script src="./javascript/map.js"></script>
     <script src="./javascript/main.js"></script>
+
+    <!-- Lexi's code for the landing -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script>
+       $(".arrow").click(function(){
+          $('html, body').animate({
+            scrollTop: $("#mainbody").offset().top
+        }, 1000);
+       });
+
+      //  $(window).scroll(function () {
+      //    if ($(window).scrollTop() > $(window).height()) {
+      //      $('nav').addClass('navbar-fixed');
+      //    }
+      //    if ($(window).scrollTop() < $(window).height()) {
+      //      $('nav').removeClass('navbar-fixed');
+      //    }
+      //  });
+    </script>
 
   </body>
 </html>
