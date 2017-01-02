@@ -21,6 +21,7 @@ p, a {
 #landing {
   height: 100vh;
   background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+  background-image: url("../images/wall-4-light.png");
   text-align: center;
 }
 
@@ -65,6 +66,7 @@ nav {
 
 nav img {
   float: left;
+  height: 100px;
 }
 
 nav a {
