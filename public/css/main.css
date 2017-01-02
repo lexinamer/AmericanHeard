@@ -64,7 +64,6 @@ nav {
 }
 
 nav img {
-  height: 100px;
   float: left;
 }
 
@@ -82,7 +81,7 @@ nav a {
 
 nav .rightnav {
   float: right;
-  background: teal;
+  background: #36bba1;
   margin-right: 20px;
   border: none;
 }
