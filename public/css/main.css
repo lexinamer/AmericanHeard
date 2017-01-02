@@ -226,6 +226,11 @@ nav .rightnav:hover {
 
 
 /*VIDEOS STYLING*/
+.video-container {
+  width: 88%;
+  margin: 0 auto;
+}
+
 .videos {
   float: left;
   width: 46%;
