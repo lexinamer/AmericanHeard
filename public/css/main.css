@@ -57,23 +57,37 @@ p, a {
 }
 
 /*NAV STYLING*/
-nav img {
-  height: 100px;
-}
-
 nav {
   background: #4b4b4b;
+  overflow: hidden;
+  height: 104px;
 }
 
-.navbar-fixed {
-  top: 0;
-  z-index: 100;
-  position: fixed;
-  width: 100%;
+nav img {
+  height: 100px;
+  float: left;
 }
 
-nav ul {
+nav a {
+  float: left;
+  margin-top: 38px;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: white;
+  margin-left: 15px;
+}
+
+nav .rightnav {
   float: right;
+  background: teal;
+  margin-right: 20px;
+  border: none;
+}
+
+/*nav ul {
   margin-right: 20px;
 }
 
@@ -81,15 +95,16 @@ nav li {
   display: inline;
 }
 
-nav a {
+nav .rightnav {
   text-decoration: none;
   background: teal;
   padding: 10px 20px;
   color: white;
   display: inline-block;
   margin-top: 15px;
+  float: right;
 }
 
-nav a:hover {
+nav .rightnav:hover {
   background: #f8bc16;
-}
+}*/
