@@ -8,16 +8,93 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
   text-transform: uppercase;
-  color: #4b4b4b;
+  color: white;
 }
 
 p, a {
   font-family: 'Raleway', sans-serif;
 	font-weight: 400;
+  color: white;
+}
+
+.btn-primary {
+  background: #36bba1;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+.btn-primary:hover {
+  background: white;
+  color: #36bba1;
+}
+
+.btn-secondary {
+  background: #d13f27;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+.btn-secondary:hover {
+  background: white;
+  color: #d13f27;
 }
 
 
-/* LANDING SCREEN STYLING*/
+
+/*NAV STYLING*/
+.nav-wrapper {
+  height: 104px;
+}
+
+.nav-wrapper nav {
+  background: white;
+  overflow: hidden;
+  height: 104px;
+}
+
+.nav-wrapper nav.fixed {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav img {
+  float: left;
+  height: 100px;
+}
+
+nav a {
+  float: left;
+  margin-top: 38px;
+  color: #4b4b4b;
+  text-decoration: none;
+  padding: 10px;
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: #4b4b4b;
+  margin-left: 15px;
+}
+
+nav .rightnav {
+  float: right;
+  margin-right: 20px;
+}
+
+nav .rightnav:hover {
+  float: right;
+  margin-right: 20px;
+  background: #d13f27;
+  color: white;
+}
+
+
+
+
+/* LANDING STYLING*/
 #landing {
   height: 100vh;
   background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
@@ -51,61 +128,102 @@ p, a {
 }
 
 
-/* MAIN PAGE STYLING*/
-.temp-wrapper {
-  width: 40%;
-  margin: 0px 30%;
-}
 
-/*NAV STYLING*/
-nav {
+
+/* MAINBODY STYLING*/
+#mainbody {
   background: #4b4b4b;
   overflow: hidden;
-  height: 104px;
 }
 
-nav img {
-  float: left;
-  height: 100px;
+.temp-wrapper {
+  width: 40%;
+  margin: 75px 30% 20px 30%;
+  text-align: center;
 }
 
-nav a {
-  float: left;
-  margin-top: 38px;
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  border-width: 0 1px 1px 0;
-  border-style: solid;
-  border-color: white;
-  margin-left: 15px;
+
+
+
+/*FILTER BAR*/
+.filter-bar {
+  text-align: center;
+  margin-top: 100px;
 }
 
-nav .rightnav {
-  float: right;
-  background: #36bba1;
-  margin-right: 20px;
-  border: none;
-}
-
-/*nav ul {
-  margin-right: 20px;
-}
-
-nav li {
-  display: inline;
-}
-
-nav .rightnav {
-  text-decoration: none;
-  background: teal;
-  padding: 10px 20px;
-  color: white;
+.select {
+  cursor: pointer;
   display: inline-block;
-  margin-top: 15px;
-  float: right;
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  width: 220px;
+  height: 40px;
 }
 
-nav .rightnav:hover {
-  background: #f8bc16;
-}*/
+.select-styled {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #36bba1;
+  padding: 8px 15px;
+}
+
+.select-styled:hover {
+  background-color: white;
+  color: #36bba1;
+}
+
+.select-styled:active, .select-styled.active {
+  background-color: white;
+  color: #36bba1;
+}
+
+.select-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #ab3326;
+}
+.select-options li {
+  margin: 0;
+  padding: 12px 0;
+  border-top: 1px solid #227263;
+  color: #36bba1;
+  background: white;
+}
+
+.select-options li:hover {
+  color: white;
+  background: #36bba1;
+}
+
+.filter-bar button {
+  display: block;
+  width: 890px;
+  height: 50px;
+  margin: 0 auto;
+  border: none;
+  margin-top: 10px;
+}
+
+
+/*VIDEOS STYLING*/
+.videos {
+  float: left;
+  width: 46%;
+  margin: 100px 2%;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
