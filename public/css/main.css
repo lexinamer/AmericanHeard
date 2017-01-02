@@ -167,6 +167,7 @@ nav .rightnav:hover {
   font-size: 16px;
   color: #fff;
   width: 220px;
+  width: 21%;
   height: 40px;
 }
 
@@ -216,6 +217,7 @@ nav .rightnav:hover {
 .filter-bar button {
   display: block;
   width: 890px;
+  width: 85%;
   height: 50px;
   margin: 0 auto;
   margin-top: 10px;
