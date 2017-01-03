@@ -18,6 +18,7 @@ color: #f8bc16;
 p, a {
   font-family: 'Raleway', sans-serif;
 	font-weight: 400;
+  text-decoration: none;
 }
 
 .btn-primary {
@@ -42,7 +43,6 @@ p, a {
 
 .btn-secondary:hover {
   background: #4b4b4b;
-  /*color: #d13f27;*/
 }
 
 
@@ -55,6 +55,7 @@ p, a {
 .nav-wrapper nav {
   background: white;
   background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+  opacity: .95;
   overflow: hidden;
   height: 104px;
 }
@@ -72,31 +73,15 @@ nav img {
   height: 100px;
 }
 
-nav a {
+nav ul {
   float: left;
-  margin-top: 38px;
-  text-decoration: none;
-  margin-left: 15px;
-}
-
-nav > a:hover {
-  backgroud: #f8bc16;
-}
-
-nav .rightnav {
+  margin: 45px 25px;
   float: right;
-  margin-right: 20px;
-  border: none;
 }
 
-nav .rightnav:hover {
-  float: right;
-  margin-right: 20px;
-  background: #f8bc16;
-  border: none;
-  color: white;
+nav ul li {
+  display: inline;
 }
-
 
 
 
