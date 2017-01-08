@@ -1,19 +1,223 @@
+/* GLOBAL PAGE STYLING*/
 html, body {
   width: 100%;
 	margin: 0;
+  color: #4b4b4b;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
+	font-weight: 500;
+  text-transform: uppercase;
 }
 
-p {
-  font-family: 'Playfair Display', serif;
+h1 {
+color: #f8bc16;
+}
+
+p, a {
+  font-family: 'Raleway', sans-serif;
 	font-weight: 400;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #36bba1;
+  border: none;
+  color: white;
+  padding: 10px;
+  /*border: 1px solid #36bba1;*/
+}
+
+.btn-primary:hover {
+  background: #4b4b4b;
+  /*color: #36bba1;*/
+}
+
+.btn-secondary {
+  background: #d13f27;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+.btn-secondary:hover {
+  background: #4b4b4b;
+}
+
+
+
+/*NAV STYLING*/
+.nav-wrapper {
+  height: 104px;
+}
+
+.nav-wrapper nav {
+  background: white;
+  background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+  opacity: .95;
+  overflow: hidden;
+  height: 104px;
+}
+
+.nav-wrapper nav.fixed {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav img {
+  float: left;
+  height: 100px;
+}
+
+nav ul {
+  float: left;
+  margin: 45px 25px;
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+}
+
+
+
+/* LANDING STYLING*/
+#landing {
+  height: 100vh;
+  background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+  background-image: url("../images/wall-4-light.png");
+  text-align: center;
+}
+
+#landing img {
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.landing-wrapper {
+  margin: 0 20%;
+}
+
+.landing-wrapper *{
+}
+
+.landing-wrapper p{
+  font-size: 18px;
+}
+
+.arrow {
+  color: #f8bc16;
+  text-decoration: none;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+
+
+
+/* MAINBODY STYLING*/
+#mainbody {
+  overflow: hidden;
 }
 
 .temp-wrapper {
   width: 40%;
-  margin: 100px 30%;
+  margin: 75px 30% 20px 30%;
+  text-align: center;
+}
+
+
+
+
+/*FILTER BAR*/
+.filter-bar {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  width: 220px;
+  width: 21%;
+  height: 40px;
+}
+
+.select-styled {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #36bba1;
+  padding: 8px 15px;
+}
+
+.select-styled:hover {
+  background-color: #4b4b4b;
+}
+
+.select-styled:active, .select-styled.active {
+  background-color: #4b4b4b;
+}
+
+.select-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #ab3326;
+}
+.select-options li {
+  margin: 0;
+  padding: 12px 0;
+  border-top: 1px solid #4b4b4b;
+  color: #36bba1;
+  background: white;
+}
+
+.select-options li:hover {
+  color: white;
+  background: #4b4b4b;
+}
+
+.filter-bar button {
+  display: block;
+  width: 890px;
+  width: 85%;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+
+/*VIDEOS STYLING*/
+.video-container {
+  width: 88%;
+  margin: 0 auto;
+}
+
+.videos {
+  float: left;
+  width: 46%;
+  margin: 50px 2%;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
 }
