@@ -5,142 +5,35 @@
     <title>American Heard</title>
     <link href="./images/favicon.png" rel="shortcut icon" />
 
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/map.css" />
-
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/78a76613ef.js"></script>
+
+    <link rel="stylesheet" href="83746274/css/main.css" />
 
   </head>
   <body>
 
     <div id="landing">
       <div class="landing-wrapper">
-        <img src="images/americaheardlogo-square.png" alt="America Heard logo">
+        <img src="83746274/images/americaheardlogo-square.png" alt="America Heard logo">
         <!-- <img src="images/americaheardlogo.png" alt="America Heard logo"> -->
 
         <h1>435 Voices, 1 America Heard</h1>
 
-        <p>Curabitur mattis lacus vel augue lobortis cursus. Sed gravida vulputate ipsum vel accumsan. Proin tempus purus eget neque efficitur, at egestas ipsum vehicula.</p>
-        <p>Curabitur vulputate, arcu ultrices varius tristique, elit lorem sollicitudin dui, at viverra ante magna in risus. Vestibulum rutrum at urna lacinia imperdiet. Aliquam sodales fringilla nisi sed semper. Cras consectetur, odio nec pharetra dignissim, ligula sem ultrices arcu, eu ultrices ex nisl a dui.
-        </p>
+        <p>America Heard is web series of short documentary films being created by filmmakers across the nation in the wake of the 2016 election.</p>
 
-        <a href="#mainbody" class="arrow"><span>&#10597;</span></a>
-        <!-- <a href="#" class="arrow">&#10597;</a> -->
+        <p>Our goal is to feature at least one film from each of the 435 congressional districts and show the diversity of political perspectives throughout the US.</p>
+
+        <a href="http://www.facebook.com/AmericaHeard/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://www.youtube.com/channel/UCDzjD52izaD2jwMB19f91FA" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/America_Heard" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/america_heard/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+
+
+        <!-- <a href="#mainbody" class="arrow"><span>&#10597;</span></a> -->
       </div>
     </div>
-
-    <div id="mainbody">
-      <div class="nav-wrapper">
-        <nav>
-          <img src="images/americaheardlogo.png" alt="America Heard logo">
-          <ul>
-            <li><a href="#" class="btn-secondary">videos</a></li>
-            <li><a href="#" class="btn-secondary">about</a></li>
-            <li><a href="#" class="btn-primary">get involved</a></li>
-          </ul
-        </nav>
-      </div>
-
-      <div class="temp-wrapper">
-        <p>Lorem Ipsum - Apparently we had reached a great height in the atmosphere,for the sky was a dead black, and the stars had ceased to twinkle.</p>
-
-          <p>Enter your zip code: <input id="zip-code-input" type="text"></p>
-          <button class="btn-primary" type="button" onclick="getDistrictsFromZip()">Show Districts</button>
-          <p>
-            <button class="btn-secondary" type="button" onclick="showUrbanRural()">View Urban/Rural overlay</button>
-
-            <button class="btn-secondary" type="button" onclick="showUrbanRural()">View political party overlay</button>
-          </p>
-      </div>
-
-      <div id="map"></div>
-
-      <div class="filter-bar">
-        <select name="party">
-          <option value="cat" disabled>-- Political Party --</option>
-          <option value="democratic">Democratic</option>
-          <option value="republican">Republican</option>
-          <option value="independent">Indepedent</option>
-        </select>
-
-        <select name="issues">
-           <option value="cat" disabled>-- Voter Issues --</option>
-          <option value="economy">Economy</option>
-          <option value="immigration">Immigration</option>
-          <option value="security">Natl. Security</option>
-          <option value="social">Social Issues</option>
-          <option value="guncontrol">Gun Control</option>
-        </select>
-
-        <select name="demographics">
-          <option value="cat" disabled>--  Demographics --</option>
-          <option value="white">White</option>
-          <option value="african">African American</option>
-          <option value="hispanic">Hispanic/Latino</option>
-          <option value="asian">Asian</option>
-          <option value="middleeastern">Middle Eastern</option>
-            <option value="other">Other</option>
-        </select>
-
-        <select name="age">
-          <option value="cat" disabled>-- Age --</option>
-          <option value="age1">18 - 25</option>
-          <option value="age2">26 - 35</option>
-          <option value="age3">36 - 45</option>
-          <option value="age4">46 - 55</option>
-          <option value="age5">56 - 65</option>
-            <option value="age6">65 +</option>
-        </select>
-
-        <button class="btn-secondary" type="submit" name="submit" value="submit">Filter</button>
-      </div>
-
-      <div class="temp-wrapper">
-        <p>Lorem Ipsum - Apparently we had reached a great height in the atmosphere,for the sky was a dead black, and the stars had ceased to twinkle.</p>
-        <p>Lorem Ipsum - Apparently we had reached a great height in the atmosphere,for the sky was a dead black, and the stars had ceased to twinkle.</p>
-      </div>
-
-      <div class="video-container">
-        <div class="videos">
-          <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/CIjXUg1s5gc" frameborder="0" allowfullscreen></iframe>
-          </div>
-
-          <div class="video-information">
-            <h2>Video Title</h2>
-            <h4>Filmmaker</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>categories or other information</p>
-          </div>
-        </div>
-
-        <div class="videos">
-          <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/CIjXUg1s5gc" frameborder="0" allowfullscreen></iframe>
-          </div>
-
-          <div class="video-information">
-            <h2>Video Title</h2>
-            <h4>Filmmaker</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>categories or other information</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <script src="https://d3js.org/queue.v1.min.js"></script>
-    <script src="https://d3js.org/topojson.v1.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="./javascript/state_numbers.js"></script>
-    <script src="./javascript/district_list.js"></script>
-    <script src="./javascript/zip_district_dict.js"></script>
-    <script src="./javascript/urban_rural_dict.js"></script>
-    <script src="./javascript/map.js"></script>
-    <script src="./javascript/main.js"></script>
-    <script src="./javascript/ui.js"></script>
 
   </body>
 </html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>American Heard</title>
+    <link href="./images/favicon.png" rel="shortcut icon" />
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/78a76613ef.js"></script>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/map.css" />
+
+  </head>
+  <body>
+
+    <div id="landing">
+      <div class="landing-wrapper">
+        <img src="images/americaheardlogo-square.png" alt="America Heard logo">
+        <!-- <img src="images/americaheardlogo.png" alt="America Heard logo"> -->
+
+        <h1>435 Voices, 1 America Heard</h1>
+
+        <p>America Heard is web series of short documentary films being created by filmmakers across the nation in the wake of the 2016 election.</p>
+
+        <p>Our goal is to feature at least one film from each of the 435 congressional districts and show the diversity of political perspectives throughout the US.</p>
+
+        <a href="#mainbody" class="arrow"><span>&#10597;</span></a>
+        <!-- <a href="#" class="arrow">&#10597;</a> -->
+      </div>
+    </div>
+
+    <div id="mainbody">
+      <div class="nav-wrapper">
+        <nav>
+          <img src="images/americaheardlogo.png" alt="America Heard logo">
+          <ul>
+            <li><a href="#" class="btn-secondary">videos</a></li>
+            <li><a href="#" class="btn-secondary">about</a></li>
+            <li><a href="#" class="btn-primary">get involved</a></li>
+          </ul
+        </nav>
+      </div>
+
+      <div class="temp-wrapper">
+        <p>To find the district for a specific zip code, and see any films that have been contributed to the series from that area thus far, enter the zip code in the box below.</p>
+
+          <p>Enter your zip code: <input id="zip-code-input" type="text"></p>
+          <button class="btn-primary" type="button" onclick="getDistrictsFromZip()">Show Districts</button>
+
+          <br><br>
+          <p>Use the map overlays to better understand the makeup of the districts.</p>
+          <p>
+            <button class="btn-secondary" type="button" onclick="showUrbanRural()">View Urban/Rural overlay</button>
+
+            <button class="btn-secondary" type="button" onclick="showUrbanRural()">View political party overlay</button>
+          </p>
+      </div>
+
+      <div id="map"></div>
+
+      <div class="temp-wrapper">
+        <p>Use the filters below to populate a set of films featuring the specified points of view and issues selected</p>
+      </div>
+
+      <div class="filter-bar">
+        <select name="party">
+          <option value="cat" disabled>-- Political Affiliation --</option>
+          <option value="democratic">Democratic</option>
+          <option value="republican">Republican</option>
+          <option value="independent">Indepedent</option>
+          <option value="nonvoter">Non-Voter</option>
+        </select>
+
+        <select name="issues">
+           <option value="cat" disabled>-- Featured Issues --</option>
+          <option value="economy">Economy</option>
+          <option value="immigration">Immigration</option>
+          <option value="security">Natl. Security</option>
+          <option value="social">Social Issues</option>
+          <option value="guncontrol">Gun Control</option>
+        </select>
+
+        <select name="subjectidentity">
+          <option value="cat" disabled>--  Subject(s) Identity --</option>
+          <option value="white">Politicians</option>
+          <option value="african">First-generation Americans</option>
+          <option value="hispanic">Veterans & Active Servicemembers</option>
+          <option value="asian">Police Officers & Public Defenders</option>
+          <option value="middleeastern">Educators</option>
+            <option value="other">Youth</option>
+        </select>
+
+        <button class="btn-secondary" type="submit" name="submit" value="submit">Filter</button>
+      </div>
+
+      <div class="video-container">
+        <div class="videos">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/CIjXUg1s5gc" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+          <div class="video-information">
+            <h2>Video Title</h2>
+            <h4>Filmmaker</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>categories or other information</p>
+          </div>
+        </div>
+
+        <div class="videos">
+          <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/CIjXUg1s5gc" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+          <div class="video-information">
+            <h2>Video Title</h2>
+            <h4>Filmmaker</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>categories or other information</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>© America Heard and contributors 2017</footer>
+
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/queue.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./javascript/state_numbers.js"></script>
+    <script src="./javascript/district_list.js"></script>
+    <script src="./javascript/zip_district_dict.js"></script>
+    <script src="./javascript/urban_rural_dict.js"></script>
+    <script src="./javascript/map.js"></script>
+    <script src="./javascript/main.js"></script>
+    <script src="./javascript/ui.js"></script>
+
+  </body>
+</html>
