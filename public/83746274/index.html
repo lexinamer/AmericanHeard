@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>American Heard</title>
+    <title>America Heard</title>
     <link href="./images/favicon.png" rel="shortcut icon" />
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
@@ -35,10 +35,10 @@
         <nav>
           <img src="images/americaheardlogo.png" alt="America Heard logo">
           <ul>
-            <li><a href="#" class="btn-secondary">videos</a></li>
-            <li><a href="#" class="btn-secondary">about</a></li>
-            <li><a href="#" class="btn-primary">get involved</a></li>
-          </ul
+            <li><a href="index.html" class="btn-primary">videos</a></li>
+            <li><a href="about.html" class="btn-primary">about</a></li>
+            <li><a href="getinvolved.html" class="btn-primary">get involved</a></li>
+          </ul>
         </nav>
       </div>
 
@@ -46,15 +46,15 @@
         <p>To find the district for a specific zip code, and see any films that have been contributed to the series from that area thus far, enter the zip code in the box below.</p>
 
           <p>Enter your zip code: <input id="zip-code-input" type="text"></p>
-          <button class="btn-primary" type="button" onclick="getDistrictsFromZip()">Show Districts</button>
+          <button class="btn-secondary" type="button" onclick="getDistrictsFromZip()">Show Districts</button>
 
-          <br><br>
+          <button class="btn-secondary urbanrural" type="button" onclick="showUrbanRural()">View Urban/Rural overlay</button>
+
+          <!-- <br><br>
           <p>Use the map overlays to better understand the makeup of the districts.</p>
           <p>
             <button class="btn-secondary" type="button" onclick="showUrbanRural()">View Urban/Rural overlay</button>
-
-            <button class="btn-secondary" type="button" onclick="showUrbanRural()">View political party overlay</button>
-          </p>
+          </p> -->
       </div>
 
       <div id="map"></div>
