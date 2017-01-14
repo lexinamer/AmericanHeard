@@ -12,13 +12,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-color: #f8bc16;
+  color: #d13f27;
 }
 
 p, a {
   font-family: 'Raleway', sans-serif;
 	font-weight: 400;
   text-decoration: none;
+  line-height: 1.6;
 }
 
 .btn-primary {
@@ -26,12 +27,11 @@ p, a {
   border: none;
   color: white;
   padding: 10px;
-  /*border: 1px solid #36bba1;*/
+  transition: background .3s;
 }
 
 .btn-primary:hover {
-  background: #4b4b4b;
-  /*color: #36bba1;*/
+  background: #18574b;
 }
 
 .btn-secondary {
@@ -39,10 +39,11 @@ p, a {
   border: none;
   color: white;
   padding: 10px;
+  transition: background .3s;
 }
 
 .btn-secondary:hover {
-  background: #4b4b4b;
+  background: #7c2516;
 }
 
 
@@ -141,6 +142,7 @@ nav ul li {
   width: 40%;
   margin: 75px 30% 20px 30%;
   text-align: center;
+  clear: both;
 }
 
 
@@ -168,16 +170,17 @@ nav ul li {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #36bba1;
+  background: #36bba1;
   padding: 8px 15px;
+  transition: background .3s;
 }
 
 .select-styled:hover {
-  background-color: #4b4b4b;
+  background: #18574b;
 }
 
 .select-styled:active, .select-styled.active {
-  background-color: #4b4b4b;
+  background: #18574b;
 }
 
 .select-options {
@@ -190,19 +193,19 @@ nav ul li {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: #ab3326;
+  background: #ab3326;
 }
 .select-options li {
   margin: 0;
   padding: 12px 0;
-  border-top: 1px solid #4b4b4b;
+  border-top: 1px solid #18574b;
   color: #36bba1;
   background: white;
 }
 
 .select-options li:hover {
   color: white;
-  background: #4b4b4b;
+  background: #18574b;
 }
 
 .filter-bar button {
@@ -243,4 +246,37 @@ iframe {
   #landing img {
     height: 250px;
   }
+
+  .temp-wrapper {
+    width: auto;
+    margin: 10px;
+    text-align: center;
+  }
+
+  #map {
+    display: none;
+  }
+
+  .videos {
+    float: none;
+    width: 100%;
+  }
+
+  .urbanrural {
+    display: none;
+  }
+
+  .filter-bar {
+    margin-top: 0;
+  }
+
+  .select {
+    width: 84.6%;
+    margin-bottom: 10px;
+  }
+
+  .nav-wrapper {
+    display: none;
+  }
+
 }
