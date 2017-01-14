@@ -1,3 +1,11 @@
+/* Nevis Bold import */
+@font-face {
+  font-family: 'Nevis';
+  src: url('nevis.eot'); /* IE9 Compat Modes */
+  src: url('nevis.woff') format('woff'), /* Pretty Modern Browsers */
+       url('nevis.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 /* GLOBAL PAGE STYLING */
 html, body {
   width: 100%;
@@ -13,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 color: #f8bc16;
+}
+
+.tagline {
+  font-family: 'Nevis', sans-serif;
 }
 
 p, a {
