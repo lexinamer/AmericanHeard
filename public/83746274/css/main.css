@@ -68,7 +68,7 @@ p, a {
 .nav-wrapper nav {
   background: white;
   background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
-  opacity: .95;
+  opacity: .01;
   overflow: hidden;
   height: 104px;
 }
@@ -79,6 +79,8 @@ p, a {
     top: 0;
     left: 0;
     right: 0;
+    opacity: .95;
+    transition: opacity .5s;
 }
 
 nav img {
@@ -111,6 +113,7 @@ nav ul li {
   display: block;
   margin: 0 auto;
   margin-bottom: 50px;
+  padding-top: 40px;
 }
 
 .landing-wrapper {

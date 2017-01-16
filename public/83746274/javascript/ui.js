@@ -8,7 +8,7 @@ return false;
 
 // Fixed nav bar on mainbody
 var $navBar = $('nav');
-var navPos = $navBar.offset().top;
+var navPos = $navBar.offset().top - 80;
 
 $(window).scroll(function() {
    var scrollPos = $(this).scrollTop();
