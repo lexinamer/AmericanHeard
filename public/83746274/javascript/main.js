@@ -4,19 +4,19 @@ function getDistrictsFromZip() {
   // Hack because the for-loop wasn't working.
   // Max number of districts in a zip code is five. Ex: 92373
   if (previousDistricts.length > 4) {
-    previousDistricts[4].classList.remove('current-districts');
+    previousDistricts[4].classList.remove('zip-code-districts');
   }
   if (previousDistricts.length > 3) {
-    previousDistricts[3].classList.remove('current-districts');
+    previousDistricts[3].classList.remove('zip-code-districts');
   }
   if (previousDistricts.length > 2) {
-    previousDistricts[2].classList.remove('current-districts');
+    previousDistricts[2].classList.remove('zip-code-districts');
   }
   if (previousDistricts.length > 1) {
-    previousDistricts[1].classList.remove('current-districts');
+    previousDistricts[1].classList.remove('zip-code-districts');
   }
   if (previousDistricts.length > 0) {
-    previousDistricts[0].classList.remove('current-districts');
+    previousDistricts[0].classList.remove('zip-code-districts');
   }
 
   var input = document.getElementById('zip-code-input').value;
@@ -43,7 +43,7 @@ function getDistrictsFromZip() {
   }
   for (var i = 0; i < currentDistricts.length; i++) {
     document.getElementById(currentDistricts[i])
-      .classList.add('current-districts');
+      .classList.add('zip-code-districts');
   }
 }
 
@@ -70,5 +70,39 @@ function showUrbanRural() {
     } else if (urbanPercent < 101) {
       currentDistrictElem.classList.add('less-than-100');
     }
+  }
+}
+
+var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1Ms2baEnQV7bElkGUTdjEdicKj0wB1JLEZYkX2Sw1u1E/pubhtml';
+
+function init() {
+  Tabletop.init({ key: publicSpreadsheetUrl,
+    callback: showInfo,
+    simpleSheet: true })
+}
+
+function showInfo(data, tabletop) {
+  console.log(data);
+  var activeData = [];
+  for (var i = 0; i < data.length; i++) {
+    if (data[i]["Video final?"] == 'yes') {
+      activeData.push(data[i]);
+    }
+  }
+  displayData(activeData);
+}
+
+window.addEventListener('DOMContentLoaded', init)
+
+function displayData(activeDistricts) {
+  console.log(activeDistricts);
+  var id = '';
+  for (var i = 1; i < activeDistricts.length; i++) {
+    if (parseInt(activeDistricts[i]["District Number"]) < 10) {
+      id = activeDistricts[i]["State Number"] + '0' + activeDistricts[i]["District Number"];
+    } else {
+      id = activeDistricts[i]["State Number"] + activeDistricts[i]["District Number"];
+    }
+    document.getElementById(id).addClass('current-districts');
   }
 }

@@ -35,7 +35,7 @@ p, a {
 }
 
 .btn-primary {
-  background: #36bba1;
+  background: #85D0CC;
   border: none;
   color: white;
   padding: 10px;
@@ -43,7 +43,7 @@ p, a {
 }
 
 .btn-primary:hover {
-  background: #18574b;
+  background: #249690;
 }
 
 .btn-secondary {
@@ -79,7 +79,7 @@ p, a {
     top: 0;
     left: 0;
     right: 0;
-    opacity: .95;
+    opacity: .97;
     transition: opacity .5s;
 }
 
@@ -170,6 +170,7 @@ nav ul li {
 
 .select {
   cursor: pointer;
+  font-family: 'Raleway', sans-serif;
   display: inline-block;
   position: relative;
   font-size: 16px;
@@ -184,13 +185,13 @@ nav ul li {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #36bba1;
+  background: #85D0CC;
   padding: 8px 15px;
   transition: background .3s;
 }
 
 .select-styled:hover {
-  background: #18574b;
+  background: #249690;
 }
 
 .select-styled:active, .select-styled.active {
