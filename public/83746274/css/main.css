@@ -154,58 +154,26 @@ nav ul li {
   margin-top: 50px;
 }
 
-.select {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
+select {
   font-size: 16px;
   color: #fff;
   width: 28%;
   height: 40px;
-}
-
-.select-styled {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   background: #36bba1;
-  padding: 8px 15px;
   transition: background .3s;
+  border: none;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  text-align-last: center;
 }
 
-.select-styled:hover {
+select:hover {
   background: #18574b;
 }
 
-.select-styled:active, .select-styled.active {
-  background: #18574b;
-}
-
-.select-options {
-  display: none;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  left: 0;
-  z-index: 999;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background: #ab3326;
-}
-.select-options li {
-  margin: 0;
-  padding: 12px 0;
-  border-top: 1px solid #18574b;
-  color: #36bba1;
-  background: white;
-}
-
-.select-options li:hover {
-  color: white;
-  background: #18574b;
+select:disabled {
+  background: lightgrey;
 }
 
 .filter-bar button {
