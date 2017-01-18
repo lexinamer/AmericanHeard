@@ -23,6 +23,15 @@ h1 {
   color: #d13f27;
 }
 
+.involved h1 {
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.about h1 {
+  font-weight: 600;
+}
+
 .tagline {
   font-family: 'Nevis', sans-serif;
 }
@@ -32,6 +41,13 @@ p, a {
 	font-weight: 400;
   text-decoration: none;
   line-height: 1.6;
+}
+
+.involved a {
+  color: #39bfb8;
+}
+.involved a:hover {
+  text-decoration: underline;
 }
 
 .btn-primary {
@@ -62,7 +78,7 @@ p, a {
 
 /*NAV STYLING*/
 .nav-wrapper {
-  height: 104px;
+  height: 100px;
 }
 
 .nav-wrapper nav {
@@ -70,7 +86,7 @@ p, a {
   background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
   opacity: .01;
   overflow: hidden;
-  height: 104px;
+  height: 100px;
 }
 
 .nav-wrapper nav.fixed {
@@ -86,11 +102,13 @@ p, a {
 nav img {
   float: left;
   height: 100px;
+  margin-top: -6px;
+  margin-left: 4px;
 }
 
 nav ul {
   float: left;
-  margin: 45px 25px;
+  margin: 38px 25px;
   float: right;
 }
 
