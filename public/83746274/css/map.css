@@ -62,11 +62,11 @@ path {
 }
 
 .current-districts {
-  fill: #CC333C;
+  fill: #CC333C; /* red */
 }
 
 .zip-code-districts {
-  fill: #f8bc16;
+  fill: #f8bc16; /* yellow */
 }
 
 .districts :hover {
