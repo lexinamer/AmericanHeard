@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>America Heard</title>
     <meta name="description" content="America Heard is web series of short documentary films being created by filmmakers across the nation in the wake of the 2016 election.">
-    <link href="./83746274/images/favicon.png" rel="shortcut icon" />
+    <link href="./images/favicon.png" rel="shortcut icon" />
 
     <!-- YouTube and Google Search linking code -->
     <meta name="google-site-verification" content="HLOgi3eEaj7U9RMSlDouRcNtBUBSiX4PIaDFwAM4a9U" />
@@ -33,33 +33,111 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/78a76613ef.js"></script>
 
-    <link rel="stylesheet" href="83746274/css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/map.css" />
 
   </head>
-  <body>
+  <body onload="init()">
 
     <div id="landing">
       <div class="landing-wrapper">
-        <img src="83746274/images/americaheardlogo-square.png" alt="America Heard logo">
+        <img src="./images/AmericaHeard-SquareLogo.png" alt="America Heard logo">
         <!-- <img src="images/americaheardlogo.png" alt="America Heard logo"> -->
 
         <h1 class="tagline">435 Voices, 1 America Heard</h1>
 
         <p>America Heard is a web series of short documentary films being created by filmmakers across the nation in the wake of the 2016 election.</p>
 
-        <p>Our goal is to feature at least one film from each of the 435 congressional districts and show the diversity of political perspectives throughout the US.</p>
+        <p>Our goal is to feature at least one film from each of the 435 congressional districts and show the diversity of political perspectives throughout the United States.</p>
 
-        <p>
-          <a href="http://www.facebook.com/AmericaHeard/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-          <a href="https://www.youtube.com/channel/UCDzjD52izaD2jwMB19f91FA" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/America_Heard" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-          <a href="https://www.instagram.com/america_heard/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-        </p>
-
-
-        <!-- <a href="#mainbody" class="arrow"><span>&#10597;</span></a> -->
+        <a href="#mainbody" class="arrow"><span>&#10597;</span></a>
+        <!-- <a href="#" class="arrow">&#10597;</a> -->
       </div>
     </div>
 
+    <div id="mainbody">
+      <div class="nav-wrapper">
+        <nav>
+          <img src="./images/americaheardlogo.png" alt="America Heard logo">
+          <ul>
+            <li><a href="index.html" class="btn-primary">videos</a></li>
+            <li><a href="about.html" class="btn-primary">about</a></li>
+            <li><a href="getinvolved.html" class="btn-primary">get involved</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="map-text temp-wrapper">
+          <h1 class="explore-map">Explore &nbsp;the &nbsp;map</h1>
+          <p>Click a red congressional district to see its film or use the buttons below to explore the demographics of our country.</p>
+          <button class="btn-secondary urbanrural" type="button" onclick="showUrbanRural()">View Urban/Rural overlay</button>
+
+          <!-- <br><br>
+          <p>Use the map overlays to better understand the makeup of the districts.</p>
+          <p>
+            <button class="btn-secondary" type="button" onclick="showUrbanRural()">View Urban/Rural overlay</button>
+          </p> -->
+      </div>
+
+      <div id="map"></div>
+      <div class="temp-wrapper">
+        <h1 class="zip-head">Find films from your district</h1>
+        <p>Enter a zip code: &nbsp;<input id="zip-code-input" value="" type="text"></p>
+        <button class="btn-secondary" type="button" onclick="getDistrictsFromZip()">Show Films</button>
+        <button class="btn-secondary" type="button" onclick="resetZips()">Reset</button>
+      </div>
+
+      <div class="temp-wrapper">
+        <p>Select categories below to find films that explore specific points
+          of view and political issues:</p>
+      </div>
+
+      <div class="filter-bar">
+        <div class="category-wrapper">
+          <button id="economy" class="btn-primary category" type="button" onclick="toggleCategory(this)">Economy</button>
+          <button id="immigration" class="btn-primary category" type="button" onclick="toggleCategory(this)">Immigration</button>
+          <button id="national-security" class="btn-primary category" type="button" onclick="toggleCategory(this)">National Security</button>
+          <button id="racial-injustice" class="btn-primary category" type="button" onclick="toggleCategory(this)">Racial/ethnic Injustice</button>
+          <button id="lgbtq" class="btn-primary category" type="button" onclick="toggleCategory(this)">LGBTQ Issues</button>
+          <button id="womens-rights" class="btn-primary category" type="button" onclick="toggleCategory(this)">Women's Rights</button>
+          <button id="gun-control" class="btn-primary category" type="button" onclick="toggleCategory(this)">Gun Control</button>
+          <button id="environment" class="btn-primary category" type="button" onclick="toggleCategory(this)">Environment</button>
+          <button id="corruption" class="btn-primary category" type="button" onclick="toggleCategory(this)">Corruption in Politics</button>
+          <button id="trump-supporters" class="btn-primary category" type="button" onclick="toggleCategory(this)">Views from Trump supporters</button>
+          <button id="clinton-supporters" class="btn-primary category" type="button" onclick="toggleCategory(this)">Views from Clinton Supporters</button>
+          <button id="third-party" class="btn-primary category" type="button" onclick="toggleCategory(this)">Views from 3rd-party voters</button>
+          <button id="politicians" class="btn-primary category" type="button" onclick="toggleCategory(this)">Views from Politicians</button>
+          <button id="first-generation" class="btn-primary category" type="button" onclick="toggleCategory(this)">Views from First-generation Americans</button>
+          <button id="veterans" class="btn-primary category" type="button" onclick="toggleCategory(this)">Views from Veterans or Active Servicemen</button>
+          <button id="police" class="btn-primary category" type="button" onclick="toggleCategory(this)">Views from Police Officers or Public Defenders</button>
+          <button id="educators" class="btn-primary category" type="button" onclick="toggleCategory(this)">Views from Educators</button>
+          <button id="youth" class="btn-primary category" type="button" onclick="toggleCategory(this)">Views from Youth</button>
+          <button id="non-voters" class="btn-primary category" type="button" onclick="toggleCategory(this)">Views from Non-voters</button>
+          <button id="electoral-college" class="btn-primary category" type="button" onclick="toggleCategory(this)">Electoral College</button>
+        </div>
+
+        <button class="btn-secondary" onclick="activateFilter()">Filter</button>
+      </div>
+
+      <div class="video-container" id="videolist">
+        <p class="error">Select topic categories or search for congressional districts above to explore the America Heard film collection.</p>
+      </div>
+
+    </div>
+
+    <footer>© America Heard and contributors 2017</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./javascript/main.js"></script>
+    <script src="./javascript/ui.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/queue.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="./javascript/state_numbers.js"></script>
+    <script src="./javascript/district_list.js"></script>
+    <script src="./javascript/zip_district_dict.js"></script>
+    <script src="./javascript/urban_rural_dict.js"></script>
+    <script src="./javascript/map.js"></script>
   </body>
 </html>

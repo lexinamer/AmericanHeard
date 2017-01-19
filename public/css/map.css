@@ -1,0 +1,75 @@
+svg {
+  margin: 0 auto;
+  display: inherit;
+}
+
+path {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.districts {
+  fill: #85D0CC;
+}
+
+.district-boundaries {
+  pointer-events: none;
+  fill: none;
+  stroke: #FFF;
+  stroke-width: .5px;
+}
+
+.state-boundaries {
+  pointer-events: none;
+  fill: none;
+  stroke: #FFF;
+  stroke-width: 1.5px;
+}
+
+.less-than-40 {
+  fill: #25b2ab;
+  opacity: 0.12;
+}
+
+.less-than-50 {
+  fill: #25b2ab;
+  opacity: 0.23;
+}
+
+.less-than-60 {
+  fill: #25b2ab;
+  opacity: 0.34;
+}
+
+.less-than-70 {
+  fill: #25b2ab;
+  opacity: 0.46;
+}
+
+.less-than-80 {
+  fill: #25b2ab;
+  opacity: 0.59;
+}
+
+.less-than-90 {
+  fill: #25b2ab;
+  opacity: 0.74;
+}
+
+.less-than-100 {
+  fill: #25b2ab;
+  opacity: 0.93);
+}
+
+.current-districts {
+  fill: #CC333C; /* red */
+}
+
+.zip-code-districts {
+  fill: #f8bc16; /* yellow */
+}
+
+.districts :hover {
+  fill: #249690;
+  opacity: 1;
+}
