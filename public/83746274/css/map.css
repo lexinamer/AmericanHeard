@@ -12,10 +12,6 @@ path {
   fill: #85D0CC;
 }
 
-.districts :hover {
-  fill: #249690;
-}
-
 .district-boundaries {
   pointer-events: none;
   fill: none;
@@ -31,31 +27,38 @@ path {
 }
 
 .less-than-40 {
-  fill: rgba(133, 208, 204, .12);
+  fill: #25b2ab;
+  opacity: 0.12;
 }
 
 .less-than-50 {
-  fill: rgba(133, 208, 204, .26);
+  fill: #25b2ab;
+  opacity: 0.23;
 }
 
 .less-than-60 {
-  fill: rgba(133, 208, 204, .4);
+  fill: #25b2ab;
+  opacity: 0.34;
 }
 
 .less-than-70 {
-  fill: rgba(133, 208, 204, .54);
+  fill: #25b2ab;
+  opacity: 0.46;
 }
 
 .less-than-80 {
-  fill: rgba(133, 208, 204, .68);
+  fill: #25b2ab;
+  opacity: 0.59;
 }
 
 .less-than-90 {
-  fill: rgba(133, 208, 204, .82);
+  fill: #25b2ab;
+  opacity: 0.74;
 }
 
 .less-than-100 {
-  fill: rgba(133, 208, 204, 1);
+  fill: #25b2ab;
+  opacity: 0.93);
 }
 
 .current-districts {
@@ -64,4 +67,9 @@ path {
 
 .zip-code-districts {
   fill: #f8bc16;
+}
+
+.districts :hover {
+  fill: #249690;
+  opacity: 1;
 }

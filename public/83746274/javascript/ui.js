@@ -20,6 +20,10 @@ $(window).scroll(function() {
    }
 });
 
+$(".current-districts").click(function(event){
+  showFilmCards([event.target.id]);
+});
+
 // Filter Bar Styling
 $('select').each(function(){
     var $this = $(this), numberOfOptions = $(this).children('option').length;

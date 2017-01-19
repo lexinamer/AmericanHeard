@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="./css/map.css" />
 
   </head>
-  <body>
+  <body onload="init()">
 
     <div id="landing">
       <div class="landing-wrapper">
@@ -47,7 +47,7 @@
 
         <p>America Heard is a web series of short documentary films being created by filmmakers across the nation in the wake of the 2016 election.</p>
 
-        <p>Our goal is to feature at least one film from each of the 435 congressional districts and show the diversity of political perspectives throughout the US.</p>
+        <p>Our goal is to feature at least one film from each of the 435 congressional districts and show the diversity of political perspectives throughout the United States.</p>
 
         <a href="#mainbody" class="arrow"><span>&#10597;</span></a>
         <!-- <a href="#" class="arrow">&#10597;</a> -->
@@ -67,11 +67,8 @@
       </div>
 
       <div class="temp-wrapper">
-        <p>To find the district for a specific zip code, and see any films that have been contributed to the series from that area thus far, enter the zip code in the box below.</p>
-
-          <p>Enter your zip code: <input id="zip-code-input" type="text"></p>
-          <button class="btn-secondary" type="button" onclick="getDistrictsFromZip()">Show Districts</button>
-
+          <h1>Explore our map</h1>
+          <p>Click a red congressional district to see its film or use the buttons below to explore the demographics of our country.</p>
           <button class="btn-secondary urbanrural" type="button" onclick="showUrbanRural()">View Urban/Rural overlay</button>
 
           <!-- <br><br>
@@ -82,39 +79,19 @@
       </div>
 
       <div id="map"></div>
+      <div class="temp-wrapper">
+        <h1 class="explore-map">Find films from your district</h1>
+        <p>Enter a zip code: &nbsp;<input id="zip-code-input" type="text"></p>
+        <button class="btn-secondary" type="button" onclick="getDistrictsFromZip()">Show Films</button>
+      </div>
 
       <div class="temp-wrapper">
-        <p>Use the filters below to populate a set of films featuring the specified points of view and issues selected</p>
+        <p>Click the categories below to find films that explore specific points
+          of view and political issues.</p>
       </div>
 
       <div class="filter-bar">
-        <select name="party">
-          <option value="cat" disabled>-- Political Affiliation --</option>
-          <option value="democratic">Democratic</option>
-          <option value="republican">Republican</option>
-          <option value="independent">Indepedent</option>
-          <option value="nonvoter">Non-Voter</option>
-        </select>
-
-        <select name="issues">
-           <option value="cat" disabled>-- Featured Issues --</option>
-          <option value="economy">Economy</option>
-          <option value="immigration">Immigration</option>
-          <option value="security">Natl. Security</option>
-          <option value="social">Social Issues</option>
-          <option value="guncontrol">Gun Control</option>
-        </select>
-
-        <select name="subjectidentity">
-          <option value="cat" disabled>--  Subject(s) Identity --</option>
-          <option value="white">Politicians</option>
-          <option value="african">First-generation Americans</option>
-          <option value="hispanic">Veterans & Active Servicemembers</option>
-          <option value="asian">Police Officers & Public Defenders</option>
-          <option value="middleeastern">Educators</option>
-            <option value="other">Youth</option>
-        </select>
-
+        <div class="category-wrapper"></div>
         <button class="btn-secondary" type="submit" name="submit" value="submit">Filter</button>
       </div>
 
@@ -150,17 +127,17 @@
 
     <footer>© America Heard and contributors 2017</footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./javascript/main.js"></script>
+    <script src="./javascript/ui.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <script src="https://d3js.org/queue.v1.min.js"></script>
     <script src="https://d3js.org/topojson.v1.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="./javascript/state_numbers.js"></script>
     <script src="./javascript/district_list.js"></script>
     <script src="./javascript/zip_district_dict.js"></script>
     <script src="./javascript/urban_rural_dict.js"></script>
     <script src="./javascript/map.js"></script>
-    <script src="./javascript/main.js"></script>
-    <script src="./javascript/ui.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
   </body>
 </html>

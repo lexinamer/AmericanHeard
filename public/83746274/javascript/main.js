@@ -1,6 +1,6 @@
 function getDistrictsFromZip() {
   // Remove class from other elements.
-  var previousDistricts = document.getElementsByClassName('current-districts');
+  var previousDistricts = document.getElementsByClassName('zip-code-districts');
   // Hack because the for-loop wasn't working.
   // Max number of districts in a zip code is five. Ex: 92373
   if (previousDistricts.length > 4) {
@@ -81,28 +81,39 @@ function init() {
     simpleSheet: true })
 }
 
+// Global variable accessible from any function.
+var activeData = [];
+var extraData = [];
+
 function showInfo(data, tabletop) {
-  console.log(data);
-  var activeData = [];
   for (var i = 0; i < data.length; i++) {
     if (data[i]["Video final?"] == 'yes') {
       activeData.push(data[i]);
     }
   }
-  displayData(activeData);
+  displayData();
 }
 
-window.addEventListener('DOMContentLoaded', init)
-
-function displayData(activeDistricts) {
-  console.log(activeDistricts);
+function displayData() {
+  console.log(activeData);
   var id = '';
-  for (var i = 1; i < activeDistricts.length; i++) {
-    if (parseInt(activeDistricts[i]["District Number"]) < 10) {
-      id = activeDistricts[i]["State Number"] + '0' + activeDistricts[i]["District Number"];
-    } else {
-      id = activeDistricts[i]["State Number"] + activeDistricts[i]["District Number"];
+  var districtNumber = 0;
+  for (var i = 1; i < activeData.length; i++) {
+    districtNumber = parseFloat(activeData[i]["District Number"]);
+    if ((0 < districtNumber) && (districtNumber < 1)) {
+      extraData.push(activeData[i]);
     }
-    document.getElementById(id).addClass('current-districts');
+    else if (districtNumber < 10) {
+      id = activeData[i]["State Number"] + '0' + districtNumber;
+    } else {
+      id = activeData[i]["State Number"] + districtNumber;
+    }
+    document.getElementById(id).classList.add('current-districts');
   }
+  console.log("extra data");
+  console.log(extraData);
+}
+
+function showFilmCards(ids) {
+  console.log(ids);
 }

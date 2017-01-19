@@ -28,7 +28,7 @@ h1 {
   font-weight: 600;
 }
 
-.about h1 {
+.about h1, .explore-map h1 {
   font-weight: 600;
 }
 
@@ -67,6 +67,7 @@ p, a {
   border: none;
   color: white;
   padding: 10px;
+  font-size: 14px;
   transition: background .3s;
 }
 
@@ -171,10 +172,15 @@ nav ul li {
 }
 
 .temp-wrapper {
-  width: 40%;
-  margin: 75px 30% 20px 30%;
+  width: 50%;
+  margin: 75px 25% 20px 25%;
   text-align: center;
   clear: both;
+}
+
+button:active, button:focus {
+  outline: none;
+  border: none;
 }
 
 
