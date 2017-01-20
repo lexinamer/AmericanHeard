@@ -269,7 +269,7 @@ function showFilmCards(filmList) {
     filmHtml += ', ' + filmList[i]["Video creator 2 name"] + ', ' + filmList[i]["Video creator 3 name"];
     filmHtml += '</h4><p>' + filmList[i]["Text Description, if applicable"] + '</p></div></div>';
   }
-  if (filmHtml.length < 10) {
+  if (filmHtml.length == '') {
     document.getElementById('videolist').innerHTML = errorHtml;
   } else {
     document.getElementById('videolist').innerHTML = filmHtml;
