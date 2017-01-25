@@ -229,7 +229,7 @@ button:active, button:focus, input:active, input:focus {
 
 .filter-bar {
   display: block;
-  width: 84.6%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -256,7 +256,7 @@ button:active, button:focus, input:active, input:focus {
 .videos {
   float: left;
   width: 46%;
-  height: 650px;
+  height: 750px;
   margin: 40px 2%;
 }
 
@@ -268,6 +268,51 @@ iframe {
   width: 100%;
   height: 400px;
 }
+
+.video-information h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #82cbc7;
+}
+
+.video-information h3 {
+  font-weight: 700;
+  color: #d2442d;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.video-information h4 {
+  text-transform: none;
+  margin-top: 5px;
+  line-height: 1.6em;
+  margin-bottom: 30px;
+}
+
+
+/* FOOTER STYLING */
+footer {
+  background: white;
+  background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer h4 {
+  margin: 0;
+  color: #d13f27;
+  font-weight: 700;
+}
+
+footer h5 {
+  color: #d13f27;
+}
+
+footer a {
+  color: #5f908e;
+  text-decoration: underline;
+}
+
 
 
 /*MEDIA QUERIES*/
@@ -293,6 +338,8 @@ iframe {
   .videos {
     float: none;
     width: 100%;
+    height: auto;
+    border-bottom: 4px solid #d2442d;
   }
 
   .map-text {
@@ -320,4 +367,5 @@ iframe {
     margin: auto 6%;
     line-height: 1.4em;
   }
+
 }

@@ -265,9 +265,9 @@ function showFilmCards(filmList) {
     ytVideoId = filmList[i]["Link to YouTube video"];
     ytVideoId = ytVideoId.substring(ytVideoId.length - 11, ytVideoId.length);
     filmHtml += embedPrefix + ytVideoId + embedSuffix;
-    filmHtml += filmList[i]["Film Title"] + '</h2><h4>' + filmList[i]["Video creator 1 name"];
-    filmHtml += ', ' + filmList[i]["Video creator 2 name"] + ', ' + filmList[i]["Video creator 3 name"];
-    filmHtml += '</h4><p>' + filmList[i]["Text Description, if applicable"] + '</p></div></div>';
+    filmHtml += filmList[i]["Film Title"] + '</h2><h3>Filmmakers:</h3><h4>' + filmList[i]["Video creator 1 name"];
+    filmHtml += '<br> ' + filmList[i]["Video creator 2 name"] + '<br> ' + filmList[i]["Video creator 3 name"];
+    filmHtml += '</h4><h3>Description:</h3><p>' + filmList[i]["Text Description, if applicable"] + '</p></div></div>';
   }
   if (filmHtml.length == '') {
     document.getElementById('videolist').innerHTML = errorHtml;
