@@ -258,14 +258,23 @@ function processData(data, tabletop) {
 
 function showFilmCards(filmList) {
   var embedPrefix = '<div class="videos"><div class="video-wrapper"><iframe src="https://www.youtube.com/embed/';
-  var embedSuffix = '" frameborder="0" allowfullscreen></iframe></div><div class="video-information"><h2>';
+  var embedSuffix = '" frameborder="0" allowfullscreen></iframe></div><div class="video-information">';
   var filmHtml = '';
   var ytVideoId = '';
   for (var i = 0; i < filmList.length; i++) {
     ytVideoId = filmList[i]["Link to YouTube video"];
     ytVideoId = ytVideoId.substring(ytVideoId.length - 11, ytVideoId.length);
     filmHtml += embedPrefix + ytVideoId + embedSuffix;
-    filmHtml += filmList[i]["Film Title"] + '</h2><h3>Filmmakers:</h3><h4>' + filmList[i]["Video creator 1 name"];
+    districtNum = parseFloat(filmList[i]["District Number"]);
+    if (districtNum < 1.0 || (districtNum % 1) != 0) {
+      filmHtml += '<h6>' + filmList[i]["State Name"];
+      if (districtNum > 1.0) {
+        filmHtml += ', District ' + Math.floor(districtNum) + '</h6>';
+      }
+    } else {
+      filmHtml += '<h6>' + filmList[i]["State Name"] + ', District ' + districtNum + '</h6>';
+    }
+    filmHtml += '<h2>' + filmList[i]["Film Title"] + '</h2><h3>Filmmakers:</h3><h4>' + filmList[i]["Video creator 1 name"];
     if (filmList[i]["Video creator 2 name"] != '') {
       filmHtml += '<br> ' + filmList[i]["Video creator 2 name"];
     }
