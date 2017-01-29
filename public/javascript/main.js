@@ -119,6 +119,9 @@ function init() {
 // Global variables accessible from any function.
 var activeData = {};
 var extraData = [];
+// Stores a record of which categories actually have active films tied to them.
+// Aka - if there is a yes anywhere in that category's column on the spreadsheet,
+// then the function called displayCategories() sets them true on page load.
 var categoryList = [
   {
     "category": "Economy",
@@ -197,11 +200,16 @@ var categoryList = [
     "id": "non-voters",
     "active": false
   }, {
-    "category": "Electoral College",
+    "category": "Electoral College Issues",
     "id": "electoral-college",
     "active": false
+  }, {
+    "category": "Religion",
+    "id": "religion",
+    "active": false
   }];
-
+  // Matches id of selected UI element to
+  // the title of the column from the spreadsheet.
   var categoryMap = {
     "economy": "Economy",
     "immigration": "Immigration",
@@ -222,7 +230,8 @@ var categoryList = [
     "educators": "Views from Educators",
     "youth": "Views from Youth",
     "non-voters": "Views from Non-voters",
-    "electoral-college": "Electoral College"
+    "electoral-college": "Electoral College Issues",
+    "religion": "Religion"
   };
 
 
