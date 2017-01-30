@@ -24,7 +24,7 @@ h1 {
 }
 
 .involved h1 {
-  margin-top: 40px;
+  margin-top: 70px;
   font-weight: 600;
 }
 
@@ -188,6 +188,11 @@ nav ul li {
   margin: 75px 25% 20px 25%;
   text-align: center;
   clear: both;
+}
+
+.about.temp-wrapper p, .involved.temp-wrapper p {
+  text-align: left;
+  margin-bottom: 35px;
 }
 
 button:active, button:focus, input:active, input:focus {
