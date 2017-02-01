@@ -2,8 +2,8 @@
 $(".arrow").click(function(){
   $('html, body').animate({
     scrollTop: $("#mainbody").offset().top
-}, 1000);
-return false;
+  }, 1000);
+  return false;
 });
 
 // Fixed nav bar on mainbody

@@ -263,6 +263,39 @@ function processData(data, tabletop) {
       }
     }
   }
+  displayURLVideo();
+}
+
+function displayURLVideo() {
+  var query = window.location.search.substring(4);
+  if (query.length > 0) {
+    var ytVideoId = '';
+    var exactFilm = [];
+    for (district in activeData) {
+      ytVideoId = activeData[district]["Link to YouTube video"];
+      ytVideoId = ytVideoId.substring(ytVideoId.length - 11, ytVideoId.length);
+      if (query == ytVideoId) {
+        exactFilm.push(activeData[district]);
+        showFilmCards(exactFilm);
+        $('html, body').animate({
+          scrollTop: $("#videos").offset().top
+        }, 600);
+        break;
+      }
+    }
+    for (var i = 0; i < extraData.length; i++) {
+      ytVideoId = extraData[i]["Link to YouTube video"];
+      ytVideoId = ytVideoId.substring(ytVideoId.length - 11, ytVideoId.length);
+      if (query == ytVideoId) {
+        exactFilm.push(extraData[i]);
+        showFilmCards(exactFilm);
+        $('html, body').animate({
+          scrollTop: $("#videos").offset().top
+        }, 600);
+        break;
+      }
+    }
+  }
 }
 
 function showFilmCards(filmList) {
