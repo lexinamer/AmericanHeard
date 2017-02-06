@@ -1,5 +1,5 @@
 function getDistrictsFromZip() {
-  removeZips();
+  $(".zip-code-districts").removeClass("zip-code-districts");
   var input = document.getElementById('zip-code-input').value;
   var currentDistricts = zipCodeToDistricts[input];
   if (currentDistricts == undefined) {
@@ -56,31 +56,19 @@ function getDistrictsFromZip() {
 
 function resetZips() {
   document.getElementById("zip-code-input").value = "";
-  removeZips();
+  $(".zip-code-districts").removeClass("zip-code-districts");
 }
 
-
-function removeZips() {
-  // Remove class from other elements.
-  var previousDistricts = document.getElementsByClassName('zip-code-districts');
-  // Hack because the for-loop wasn't working.
-  // Max number of districts in a zip code is five. Ex: 92373
-  if (previousDistricts.length > 4) {
-    previousDistricts[4].classList.remove('zip-code-districts');
-  }
-  if (previousDistricts.length > 3) {
-    previousDistricts[3].classList.remove('zip-code-districts');
-  }
-  if (previousDistricts.length > 2) {
-    previousDistricts[2].classList.remove('zip-code-districts');
-  }
-  if (previousDistricts.length > 1) {
-    previousDistricts[1].classList.remove('zip-code-districts');
-  }
-  if (previousDistricts.length > 0) {
-    previousDistricts[0].classList.remove('zip-code-districts');
-  }
+function resetDataOverlay() {
+  $(".less-than-40").removeClass("less-than-40");
+  $(".less-than-50").removeClass("less-than-50");
+  $(".less-than-60").removeClass("less-than-60");
+  $(".less-than-70").removeClass("less-than-70");
+  $(".less-than-80").removeClass("less-than-80");
+  $(".less-than-90").removeClass("less-than-90");
+  $(".less-than-100").removeClass("less-than-100");
 }
+
 
 
 function showUrbanRural() {
