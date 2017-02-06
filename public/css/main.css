@@ -375,6 +375,17 @@ footer a {
 }
 
 @media (max-width: 450px){
+  .fixed img {
+    content: url(../images/AmericaHeard-SquareLogo.png);
+    margin-left: 10px;
+    height: 80px;
+    margin-top: 4px;
+  }
+
+  nav ul {
+    margin: 35px 10px;
+  }
+
   #landing img {
     height: 200px;
   }
