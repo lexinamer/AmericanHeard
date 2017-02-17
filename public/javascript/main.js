@@ -228,28 +228,37 @@ var categoryList = [
 function processData(data, tabletop) {
   var districtArray = [];
   var key = '';
+  var date = new Date();
+  var month = date.getMonth() + 1;
+  var day = date.getDate();
+  var filmDate = '';
   for (var i = 0; i < data.length; i++) {
     // Identify approved films.
     if (data[i]["Video final?"] == 'yes') {
-      displayCategories(data[i]);
-      // Sort them into extra films and films for a specific district.
-      districtArray = data[i]["District Number"].split(".");
-      if (districtArray.length > 1) {
-        // District number is a decimal.
-        extraData.push(data[i]);
-      } else if (parseInt(districtArray[0]) < 10) {
-        // District numbers less than 10 require a leading zero.
-        key = data[i]["State Number"] + '0' + districtArray[0];
-        activeData[key] = data[i];
-        // Add to map.
-        document.getElementById(key).classList.add('current-districts');
-        document.getElementById(key).addEventListener("click", mapClick);
-      } else {
-        key = data[i]["State Number"] + districtArray[0];
-        activeData[key] = data[i];
-        // Add to map.
-        document.getElementById(key).classList.add('current-districts');
-        document.getElementById(key).addEventListener("click", mapClick);
+      filmDate = data[i]["Date finalized"];
+      filmMonth = parseInt(filmDate.substring(0,2));
+      filmDay = parseInt(filmDate.substring(3,5));
+      if (filmMonth < month || (filmMonth == month && filmDay <= day)) {
+        displayCategories(data[i]);
+        // Sort them into extra films and films for a specific district.
+        districtArray = data[i]["District Number"].split(".");
+        if (districtArray.length > 1) {
+          // District number is a decimal.
+          extraData.push(data[i]);
+        } else if (parseInt(districtArray[0]) < 10) {
+          // District numbers less than 10 require a leading zero.
+          key = data[i]["State Number"] + '0' + districtArray[0];
+          activeData[key] = data[i];
+          // Add to map.
+          document.getElementById(key).classList.add('current-districts');
+          document.getElementById(key).addEventListener("click", mapClick);
+        } else {
+          key = data[i]["State Number"] + districtArray[0];
+          activeData[key] = data[i];
+          // Add to map.
+          document.getElementById(key).classList.add('current-districts');
+          document.getElementById(key).addEventListener("click", mapClick);
+        }
       }
     }
   }
