@@ -67,6 +67,7 @@ function resetDataOverlay() {
   $(".less-than-80").removeClass("less-than-80");
   $(".less-than-90").removeClass("less-than-90");
   $(".less-than-100").removeClass("less-than-100");
+  document.getElementById('map-scale').style.visibility = 'hidden';
 }
 
 
@@ -94,6 +95,7 @@ function showUrbanRural() {
       currentDistrictElem.classList.add('less-than-100');
     }
   }
+  document.getElementById('map-scale').style.visibility = 'visible';
 }
 
 var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1Ms2baEnQV7bElkGUTdjEdicKj0wB1JLEZYkX2Sw1u1E/pubhtml';
@@ -132,8 +134,8 @@ var categoryList = [
     "id": "lgbtq",
     "active": false
   }, {
-    "category": "Women's Rights",
-    "id": "womens-rights",
+    "category": "Gender Injustice",
+    "id": "gender-injustice",
     "active": false
   }, {
     "category": "Gun Control",
@@ -204,7 +206,7 @@ var categoryList = [
     "national-security": "National Security",
     "racial-injustice": "Racial/ethnic Injustice",
     "lgbtq": "LGBTQ Issues",
-    "womens-rights": "Women's Rights",
+    "gender-injustice": "Gender Injustice",
     "gun-control": "Gun Control",
     "environment": "Environment",
     "corruption": "Corruption in Politics",

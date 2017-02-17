@@ -71,6 +71,7 @@
           <p>Click a red congressional district to see its film or use the buttons below to explore the demographics of our country.</p>
           <button class="btn-secondary urbanrural" type="button" onclick="showUrbanRural()">View Urban/Rural overlay</button>
           <button class="btn-secondary" type="button" onclick="resetDataOverlay()">Reset</button>
+          <div id="map-scale"><p id="scale-left">urban</p><div id="scale-gradient"></div><p id="scale-right">rural</p></div>
       </div>
 
       <div id="map"></div>
@@ -93,7 +94,7 @@
           <button id="national-security" class="btn-primary category" type="button" onclick="toggleCategory(this)">National Security</button>
           <button id="racial-injustice" class="btn-primary category" type="button" onclick="toggleCategory(this)">Racial/ethnic Injustice</button>
           <button id="lgbtq" class="btn-primary category" type="button" onclick="toggleCategory(this)">LGBTQ Issues</button>
-          <button id="womens-rights" class="btn-primary category" type="button" onclick="toggleCategory(this)">Women's Rights</button>
+          <button id="gender-injustice" class="btn-primary category" type="button" onclick="toggleCategory(this)">Gender Injustice</button>
           <button id="gun-control" class="btn-primary category" type="button" onclick="toggleCategory(this)">Gun Control</button>
           <button id="environment" class="btn-primary category" type="button" onclick="toggleCategory(this)">Environment</button>
           <button id="corruption" class="btn-primary category" type="button" onclick="toggleCategory(this)">Corruption in Politics</button>
