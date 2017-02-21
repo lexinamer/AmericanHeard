@@ -66,7 +66,7 @@ p, a {
   border: none;
   color: white;
   padding: 10px;
-  transition: background .3s;
+  transition: background .4s;
 }
 
 .btn-primary:hover {
@@ -255,12 +255,11 @@ button:active, button:focus, input:active, input:focus {
 }
 
 .category-wrapper .btn-primary:hover {
-  background-color: #85D0CC;
-  opacity: .8;
+  background-color: rgba(36, 150, 144, 0.8);
 }
 
-.category-wrapper .btn-primary.selected {
-  background-color: #249690;
+.category-wrapper .btn-primary.selected, .category-wrapper .btn-primary.selected:hover {
+  background-color: rgba(36, 150, 144, 1);
 }
 
 .filter-bar {
