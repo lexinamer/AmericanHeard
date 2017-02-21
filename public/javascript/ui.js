@@ -29,7 +29,7 @@ function mapClick() {
     if (parseInt(extraData[i]["State Number"]) == stateNum) {
       if (parseFloat(extraData[i]["District Number"]) < 1) {
         filmList.push(extraData[i]);
-      } else if (math.Floor(parseFloat(extraData[i]["District Number"])) == districtNum) {
+      } else if (Math.floor(parseFloat(extraData[i]["District Number"])) == districtNum) {
         filmList.push(extraData[i]);
       }
     }
